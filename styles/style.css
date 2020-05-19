@@ -1,4 +1,29 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 61px;
+  /* or 95% */
+  text-align: center;
+  color: #542F17;
+}
+
+h2 {
+  font-family: Dancing Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 30px;
+}
 .img_section{
     background-image: url(../img/fundo.svg);
 
 }
+
+/* Meninas, usem assim quando precisarem especificar as fontes diferentes 
+font-family: 'Dancing Script', cursive; */
