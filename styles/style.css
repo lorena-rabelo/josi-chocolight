@@ -34,13 +34,18 @@ footer>h2{
 }
 
 footer>p{
-  line-height: 160px;
+  margin: 50px auto 20px auto;
+  font-size: 11px;
 }
 
 footer>div>a{
   color: white;
-  
-}
+ } 
+ 
+ a:hover {
+  text-decoration: none;
+  color: white;
+ }
 
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
