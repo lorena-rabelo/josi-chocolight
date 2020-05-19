@@ -21,5 +21,26 @@ h2 {
   line-height: 30px;
 }
 
+footer{
+  background-color: #FD92BC;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  height: 290px;
+}
+
+footer>h2{
+  height: 60px;
+}
+
+footer>p{
+  line-height: 160px;
+}
+
+footer>div>a{
+  color: white;
+  
+}
+
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
