@@ -21,31 +21,6 @@ h2 {
   line-height: 30px;
 }
 
-.img_section{
-  padding-top: 25px;
-  background-image: url(../img/fundo.svg);
-  color: #542F17;
-  
-  
-}
-.img_produtos{
-  max-width: 200px;
-  height: 185px;
-  border-radius: 10px;
- 
-}
-p{
-  font-family: 'Dancing Script', cursive;
-  font-style: bold;
-  font-size: 25px;
-}
-
-.orcamento{
-display: block;
- margin-left: auto;
- margin-right: auto 
-}
-
 footer{
   background-color: #FD92BC;
   color: white;
@@ -71,7 +46,7 @@ footer>div>a{
   text-decoration: none;
   color: white;
  }
- 
+
 
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
