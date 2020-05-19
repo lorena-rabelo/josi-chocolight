@@ -33,9 +33,10 @@ h2 {
     border-radius: 10px;
    
 }
-h5{
+p{
     font-family: 'Dancing Script', cursive;
     font-style: bold;
+    font-size: 25px;
 }
 
 .orcamento{
