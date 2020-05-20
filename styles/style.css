@@ -119,6 +119,35 @@ footer>div>a{
   color: white;
  }
 
+
+nav{
+ background: url(../img/fundonav.svg) no-repeat;
+ display: flex;
+
+}
+
+.navmenu{
+  justify-content: space-evenly;
+
+}
+
+
+li{
+    list-style: none;
+}
+.textcolorlink {
+    color: #FD92BC;
+}
+
+.headerbackgound {
+    background: url(../img/img_banners/bg.header.svg);
+}
+
+.imglogo{
+    width: 200px;
+    height: 200px;
+}
+
 .chocolight {
   background: rgb(245, 245, 245);
   padding-bottom: 140px;
