@@ -19,7 +19,47 @@ h2 {
   font-weight: normal;
   font-size: 48px;
   line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
 }
+
+
+
+.doce{
+   width: 184px;
+   height: 184px;
+   border-radius: 5px;
+
+}
+.sociais{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%,50%);
+ 
+ 
+}
+.icones{
+  background-color: #261A13;
+  padding-top: 25px; 
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+}
+
+
 
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
