@@ -14,20 +14,22 @@
     <script src="https://kit.fontawesome.com/e45a5a40ee.js" crossorigin="anonymous"></script>
     <title>josi Chocolight</title>
 </head>
+
 <body>
 
-        <!-- HEADER.  -->
-        <header class="headerbackgound">
-            <div class="d-flex justify-content-center">
-                <img src="img/Logo.png" alt="Logo Josi Chocolight">
-            </div>
-            <!-- NAV -->
-            <section>
-                <div>
+    <!-- HEADER.  -->
+    <header class="headerbackgound">
+        <div class="d-flex justify-content-center">
+            <img src="img/Logo.png" alt="Logo Josi Chocolight">
+        </div>
+        <!-- NAV -->
+        <section class="sectionnav">
+            <div class="divmenu">
+                <img class=" navfundo" src="./img/fundonav.svg" alt="Fundo marrom barra de menu">
                 <nav class="navmenu">
-                    <ul class="navtext" >
+                    <ul class="navtext">
                         <li>
-                           <a href="#">INÍCIO</a> 
+                            <a href="#">INÍCIO</a>
                         </li>
                         <li>
                             <a href="#"> QUEM FAZ</a>
@@ -41,51 +43,53 @@
                     </ul>
                 </nav>
             </div>
-
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active  imagem-carousel">
-                        <img class="d-block w-100 img-responsive imagem-carousel" src="img/img_banners/banner1.jpg " alt="Primeiro Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100 imagem-carousel " src="img/Bolo2.jpeg" alt="Segundo Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100 imagem-carousel" src="img/Bolo3.jpeg" alt="Terceiro Slide">
-                      </div>
+    <!--Carousel  -->
+            <div id="carouselExampleIndicators" class="carousel slide imgscarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active  imagem-carousel">
+                        <img class="d-block w-100 img-responsive imagem-carousel" src="img/img_banners/Bolo1.jpeg"
+                            alt="Primeiro Slide">
                     </div>
-                    <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Próximo</span>
-                    </a>
-                  </div>
-            </section>
-        
-        
-        
-        </header>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carousel " src="img/Bolo2.jpeg" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carousel" src="img/Bolo3.jpeg" alt="Terceiro Slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
 
 
-   <!-- SOBRE.  -->
+
+    </header>
+
+
+    <!-- SOBRE.  -->
     <section>
         <h1>Bolos, doces e salgados, preparados com muito amor!
-</section>
+    </section>
     <!-- SOBRE.  -->
     <section class="chocolight">
         <h1>Bolos, doces e salgados, preparados com <b>muito amor</b>!
         </h1>
         <div class="sobre">
             <div class="sobre__imagens">
-                <img class="sobre__imagens--fundo" src="img/retangulos-doces-rosa.svg" alt="Imagem com fundo rosa e desenhos de doces">
+                <img class="sobre__imagens--fundo" src="img/retangulos-doces-rosa.svg"
+                    alt="Imagem com fundo rosa e desenhos de doces">
                 <img class="sobre__imagens--autora" src="img/josi.jpeg" alt="Foto da Josi - dona da Chocolight">
             </div>
             <div class="sobre__texto">
@@ -106,41 +110,42 @@
         </div>
     </section>
     <!-- NOSSOS PRODUTOS  -->
-    
-  
-        <!-- NOSSOS PRODUTOS.  -->
-<!-- //SECTION DOS NOSSOS PRODUTOS E SIGA NOSSAS REDES SOCIAIS -->
-<section class="img_section">
-    <section>
-        <h2 class="text-center pb-2 pt-5"> Nossos Produtos </h2>
-<div class="produtos d-flex flex-column flex-md-row justify-content-md-around p-3">
 
-    <div>
-        <img src="./img/bolo.jpeg" class="img_produtos"  alt="Imagem de bolo" > 
-        <p class="text-center p-2 bold font-weight-bold">Bolos</p>
-    </div>
-    <div>
-    <img src="./img/kitfesta.jpeg" class="img_produtos"  alt="Imagem de um kit festas" > 
-        <p class="text-center p-2 font-weight-bold">Kit Festas</p>
-    </div>
-    <div>
-    <img src="./img/cupcake.png" class="img_produtos"  alt="Imagem de cupcakes" > 
-        <p class="text-center p-2 font-weight-bold">Doces</p>
-    </div>
-    <div>
-    <img src="./img/salgados.svg" class="img_produtos"  alt="Imagem de salgados" > 
-        <p class="text-center p-2 font-weight-bold">Salgados</p>
-    </div>
 
-</div>
-<img src="./img/orcamento.svg" href="https://bit.ly/josichocolight" target="_black" class="orcamento"  alt="imagem de solicitar orçamento" > 
+    <!-- NOSSOS PRODUTOS.  -->
+    <!-- //SECTION DOS NOSSOS PRODUTOS E SIGA NOSSAS REDES SOCIAIS -->
+    <section class="img_section">
+        <section>
+            <h2 class="text-center pb-2 pt-5"> Nossos Produtos </h2>
+            <div class="produtos d-flex flex-column flex-md-row justify-content-md-around p-3">
 
-        <!-- REDES SOCIAIS.  -->
-        <section  class="icones">
-            <h2>Siga nas redes sociais</h2>
-            <div class="imagem">
-                
-                
+                <div>
+                    <img src="./img/bolo.jpeg" class="img_produtos" alt="Imagem de bolo">
+                    <p class="text-center p-2 bold font-weight-bold">Bolos</p>
+                </div>
+                <div>
+                    <img src="./img/kitfesta.jpeg" class="img_produtos" alt="Imagem de um kit festas">
+                    <p class="text-center p-2 font-weight-bold">Kit Festas</p>
+                </div>
+                <div>
+                    <img src="./img/cupcake.png" class="img_produtos" alt="Imagem de cupcakes">
+                    <p class="text-center p-2 font-weight-bold">Doces</p>
+                </div>
+                <div>
+                    <img src="./img/salgados.svg" class="img_produtos" alt="Imagem de salgados">
+                    <p class="text-center p-2 font-weight-bold">Salgados</p>
+                </div>
+
+            </div>
+            <img src="./img/orcamento.svg" href="https://bit.ly/josichocolight" target="_black" class="orcamento"
+                alt="imagem de solicitar orçamento">
+
+            <!-- REDES SOCIAIS.  -->
+            <section class="icones">
+                <h2>Siga nas redes sociais</h2>
+                <div class="imagem">
+
+
                     <img class="doce" src="./img/delicias 1.jpg" alt="Imagem de doces">
                     <img class="doce" src="./img/doce3 (1).jpg" alt="Imagem de doces">
                     <img class="doce" src="./img/doce5 (1).jpg" alt="Imagem de doces">
@@ -150,38 +155,39 @@
 
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/josichocolight/"   target="_blank" class="sociais">
+                    <a href="https://www.instagram.com/josichocolight/" target="_blank" class="sociais">
                         <img src="./img/Instagram.svg" alt="">
-                        </a>
-                       
-                      <a href="https://www.facebook.com/josichocolight/" target="_blank" class="sociais">
+                    </a>
+
+                    <a href="https://www.facebook.com/josichocolight/" target="_blank" class="sociais">
                         <img src="./img/Facebook.png" alt="">
                     </a>
-                        
-                      
+
+
 
                 </div>
-            </div>
-
-                    
-
-
-        </section>
-    <!-- REDES SOCIAIS  -->
+                </div>
 
 
 
-        <!-- ORÇAMENTO  -->
-<footer>
-    <h2>Solicite um orçamento</h2>
-    <a href="mailto:josichocolight@gmail.com" target="_black">josichocolight@gmail.com</a>
-    <a href="https://wa.me/5511999846463?text=Olá%20josi,%20gostaria%20de%20um%20orçamento!%20Pode%20ser?">Whatsapp: (11) 99984-6463</a>
-</footer>
+
+            </section>
+            <!-- REDES SOCIAIS  -->
 
 
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+            <!-- ORÇAMENTO  -->
+            <footer>
+                <h2>Solicite um orçamento</h2>
+                <a href="mailto:josichocolight@gmail.com" target="_black">josichocolight@gmail.com</a>
+                <a href="https://wa.me/5511999846463?text=Olá%20josi,%20gostaria%20de%20um%20orçamento!%20Pode%20ser?">Whatsapp:
+                    (11) 99984-6463</a>
+            </footer>
+
+
+
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

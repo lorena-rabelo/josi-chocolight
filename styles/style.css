@@ -119,18 +119,32 @@ footer>div>a{
   color: white;
  }
 
+.sectionnav{
+  position: relative;
+}
+.divmenu{
+  margin: 0 auto;
+  text-align: center;
+    z-index: 100;
+ }
 
-nav{
- background: url(../img/fundonav.svg) no-repeat;
- display: flex;
-
+.navfundo{
 }
 
 .navmenu{
-  justify-content: space-evenly;
+  
+}
+
+.navtext{
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
 
 }
 
+.navtext > li {
+margin: 0 18px;
+}
 
 li{
     list-style: none;
@@ -140,14 +154,19 @@ li{
 }
 
 .headerbackgound {
-    background: url(../img/img_banners/bg.header.svg);
+  z-index: -1;
+  background: url(../img/img_banners/bg.header.svg);
 }
 
 .imglogo{
     width: 200px;
     height: 200px;
 }
+.imgscarousel{
+margin: -50px 100px 0 100px;
+z-index: 1;
 
+}
 .chocolight {
   background: rgb(245, 245, 245);
   padding-bottom: 140px;
