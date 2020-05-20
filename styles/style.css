@@ -58,23 +58,30 @@ h2 {
   max-width: 100vw;
   width: 100%;
 }
-.borda{
-  
-  
-  border-image: url('../img/Frame.png') 30px round;
+
+.bordasup{
+  background-color:rgb(245, 245, 245);
+  width: 100%;
 
 }
 
+.bordainf{
+    background-color:#261A13;
+    width: 100%;
+ 
+}
+
+
 .img_section{
     padding-top: 25px;
-    background-color:rgb(236, 228, 223);
+    background-color:#DED3CF;
     color: #542F17;
 
 }
 
 .img_produtos{
     max-width: 185px;
-    background-color:  rgb(243, 234, 228);
+    background-color: #DED3CF;
     color: #542F17;
     height: 185px;
     border-radius: 10px;
