@@ -21,5 +21,37 @@ h2 {
   line-height: 30px;
 }
 
+
+nav{
+ background: url(../img/fundonav.svg) no-repeat;
+ display: flex;
+
+}
+
+.navmenu{
+display: flex;
+justify-content: space-around;
+}
+
+.bgnav{
+justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+}
+.textcolorlink {
+    color: #FD92BC;
+}
+
+.headerbackgound {
+    background: url(../img/img_banners/bg.header.svg);
+}
+
+.imglogo{
+    width: 200px;
+    height: 200px;
+}
+
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
