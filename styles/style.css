@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  color: #542F17;
 }
 
 h1 {
@@ -11,6 +12,8 @@ h1 {
   /* or 95% */
   text-align: center;
   color: #542F17;
+  max-width: 650px;
+  margin: 0 auto 200px auto;
 }
 
 h2 {
@@ -70,6 +73,59 @@ footer>div>a{
   text-decoration: none;
   color: white;
  }
+
+.chocolight {
+  background: rgb(245, 245, 245);
+  padding-bottom: 140px;
+}
+
+.sobre {
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sobre__imagens {
+  display: flex;
+  align-items: center;  
+  justify-content: flex-end;
+}
+
+.sobre__imagens--fundo {
+  max-width: 496px;
+  height: 640px;
+}
+
+.sobre__imagens--autora {
+  max-width: 331px;
+  max-height: 514px;
+  /* z-index: 1; */
+  margin-left: -300px;
+  border: 2px solid ;
+}
+
+.sobre__texto {
+  max-width: 392px;
+  margin-left: 70px;
+  /* justify-content: flex-end;
+  display: flex; */
+}
+
+.sobre__texto h2 {
+  margin-bottom: 44px;
+}
+
+.sobre__texto p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */  
+  color: #542F17;
+}
 
 /* Meninas, usem assim quando precisarem especificar as fontes diferentes 
 font-family: 'Dancing Script', cursive; */
