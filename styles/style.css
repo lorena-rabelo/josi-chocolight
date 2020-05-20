@@ -70,17 +70,21 @@ h2 {
 
 .img_section{
     padding-top: 25px;
-    background-image: url(../img/fundo.svg);
+    background-color:rgb(236, 228, 223);
     color: #542F17;
-    
+   
     
 }
 .img_produtos{
-    max-width: 200px;
+    max-width: 185px;
+    background-color:  rgb(243, 234, 228);
+    color: #542F17;
     height: 185px;
     border-radius: 10px;
-   
+    
 }
+
+
 p{
     font-family: 'Dancing Script', cursive;
     font-style: bold;
@@ -91,7 +95,26 @@ p{
   display: block;
    margin-left: auto;
    margin-right: auto 
+  
 }
+
+footer{
+  background-color: #FD92BC;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  height: 290px;
+}
+
+footer>h2{
+  height: 60px;
+}
+
+footer>p{
+  margin: 50px auto 20px auto;
+  font-size: 11px;
+}
+
 
 footer{
   background-color: #FD92BC;
@@ -119,6 +142,10 @@ footer>div>a{
   color: white;
  }
 
+<<<<<<< HEAD
+/* Meninas, usem assim quando precisarem especificar as fontes diferentes 
+font-family: 'Dancing Script', cursive; */
+=======
 
 nav{
  background: url(../img/fundonav.svg) no-repeat;
@@ -201,4 +228,5 @@ li{
   color: #542F17;
 }
 
+>>>>>>> 719bc957bdfaf35aa6412f7efc7bc8944603d8ee
 
