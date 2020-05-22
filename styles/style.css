@@ -13,7 +13,7 @@ h1 {
   text-align: center;
   color: #542F17;
   max-width: 650px;
-  margin: 0 auto 200px auto;
+  margin: 100px auto 140px auto;
 }
 
 h2 {
@@ -23,168 +23,51 @@ h2 {
   font-size: 48px;
   line-height: 30px;
   text-align: center;
-  color:#542F17;
+  color: #542F17;
 }
 
-.doce{
-   width:200px;
-   height:185px;
-   border-radius: 10px;
-   margin: 8px;
-   object-fit: cover;
-  
-  
-}
-
-.imagem{
-  margin: 70px auto;
-}
-   
-.sociais > img{
-  margin: 100px auto;
-}
-
-.sociais{
-  position: relative;
-  top: 50%;
-  left: 43%;
-  transform: translate(50%,50%);
-  margin: 0 15px;
-  padding: 0;
-  
-}
-
-.icones_section{
-  background-color: #261A13;
-  padding-top: 25px; 
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 100vw;
-  width: 100%;
-
-}
-
-.bordasup{
-  background-color:rgb(245, 245, 245);
-  width: 100%;
-
-}
-
-.bordainf{
-    background-color:#261A13;
-    width: 100%;
- 
-}
-
-
-
-
-.img_section{
-    padding-top: 25px;
-    background-color:#DED3CF;
-    color: #542F17;
-    margin: auto;
-}
-
-.img_produtos{
-    max-width: 185px;
-    background-color: #DED3CF;
-    color: #542F17;
-    height: 185px;
-    border-radius: 10px;
-}
-
-p{
-    font-family: 'Dancing Script', cursive;
-    font-style: bold;
-    font-size: 25px;
-}
-
-.orcamento{
-  display: block;
-   margin-left: auto;
-   margin-right: auto 
-}
-
-footer{
-  background-color: #FD92BC;
-  color: white;
-  text-align: center;
-  padding: 50px;
-  height: 290px;
-}
-
-footer>h2{
-  height: 60px;
-}
-
-footer>div>a{
-  color: white;
-} 
- 
-footer>p{
-  margin: 50px auto 20px auto;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 11px;
-}
-
-footer>div>a{
-  color: white;
- } 
- 
-
-/* Meninas, usem assim quando precisarem especificar as fontes diferentes 
-font-family: 'Dancing Script', cursive; */
 a:hover {
   text-decoration: none;
   color: white;
- }
+}
 
 /* HEADER */
- .headerbackgound {
-   z-index: -1;
-   background: url(../img/img_banners/bg.header.svg);
- }
 
- .imglogo{
+.headerbackgound {
+  z-index: -1;
+  background: url(../img/img_banners/bg.header.svg);
+}
+
+.imglogo {
   width: 200px;
   height: 200px;
 }
+
 /* NAV */
-.sectionnav{
+
+.sectionnav {
   position: relative;
 }
 
-.divmenu{
+.divmenu {
   margin: 0 auto;
   text-align: center;
   z-index: 100;
   position: inherit;
- }
+}
 
-
-
-
-
-  
-
-
-.navtext{
+.navtext {
   display: flex;
   justify-content: center;
   margin-top: -40px;
-
 }
 
-.navtext > li {
+.navtext>li {
   list-style: none;
   margin: 0 18px;
-  
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -192,13 +75,15 @@ li{
   color: #FD92BC;
 }
 
-.imgscarousel{
-margin: -32px 100px 0 100px;
-
-
+.imgscarousel {
+  margin: -32px 100px 0 100px;
 }
+
+/* Sobre */
+
 .chocolight {
   background: rgb(245, 245, 245);
+  padding-top: 10px;
   padding-bottom: 140px;
 }
 
@@ -212,7 +97,7 @@ margin: -32px 100px 0 100px;
 
 .sobre__imagens {
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: flex-end;
 }
 
@@ -226,7 +111,7 @@ margin: -32px 100px 0 100px;
   max-height: 514px;
   /* z-index: 1; */
   margin-left: -300px;
-  border: 2px solid ;
+  border: 2px solid;
 }
 
 .sobre__texto {
@@ -246,8 +131,112 @@ margin: -32px 100px 0 100px;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */  
+  /* or 167% */
   color: #542F17;
+}
+
+
+/* Nossos produtos */
+
+.bordasup {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+}
+
+.bordainf {
+  background-color: #261A13;
+  width: 100%;
+}
+
+.img_section {
+  padding-top: 25px;
+  background-color: #DED3CF;
+  color: #542F17;
+  margin: auto;
+}
+
+.img_produtos {
+  max-width: 185px;
+  background-color: #DED3CF;
+  color: #542F17;
+  height: 185px;
+  border-radius: 10px;
+}
+
+/* Redes Sociais */
+
+.doce {
+  width: 200px;
+  height: 185px;
+  border-radius: 10px;
+  margin: 8px;
+  object-fit: cover;
+}
+
+.imagem {
+  margin: 70px auto;
+}
+
+.sociais>img {
+  margin: 0px 15px 70px 15px;
+}
+
+.icones_section {
+  background-color: #261A13;
+  padding-top: 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100vw;
+  width: 100%;
+  text-align: center;   /* Garante que todos os elementos filhos fiquem centralizados */
+}
+
+.icones_section h2 {
+color: #FFF;
+}
+
+
+
+/* Footer  */
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-style: bold;
+  font-size: 25px;
+}
+
+.orcamento {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+footer {
+  background-color: #FD92BC;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  height: 290px;
+}
+
+footer>h2 {
+  height: 60px;
+}
+
+footer>div>a {
+  color: white;
+}
+
+footer>p {
+  margin: 50px auto 20px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 11px;
+}
+
+footer>div>a {
+  color: white;
 }
 
 /* 
