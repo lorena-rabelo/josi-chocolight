@@ -76,7 +76,7 @@ h2 {
     padding-top: 25px;
     background-color:#DED3CF;
     color: #542F17;
-
+    margin: auto;
 }
 
 .img_produtos{
@@ -244,4 +244,13 @@ z-index: 1;
   color: #542F17;
 }
 
+/* 
+@media screen and (max-width: 780px) {
+  /* .produtos{
+display: flex;
+align-items: center;
 
+  } 
+
+
+} */
