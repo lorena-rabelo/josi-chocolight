@@ -23,7 +23,7 @@ h2 {
   font-size: 48px;
   line-height: 30px;
   text-align: center;
-  color: #FFFFFF;
+  color:#542F17;
 }
 
 .doce{
@@ -66,18 +66,31 @@ h2 {
 
 }
 
+.bordasup{
+  background-color:rgb(245, 245, 245);
+  width: 100%;
+
+}
+
+.bordainf{
+    background-color:#261A13;
+    width: 100%;
+ 
+}
+
 
 
 
 .img_section{
     padding-top: 25px;
-    background-color:rgb(236, 228, 223);
+    background-color:#DED3CF;
     color: #542F17;
+    margin: auto;
 }
 
 .img_produtos{
     max-width: 185px;
-    background-color:  rgb(243, 234, 228);
+    background-color: #DED3CF;
     color: #542F17;
     height: 185px;
     border-radius: 10px;
@@ -117,6 +130,13 @@ footer>p{
   font-size: 11px;
 }
 
+footer>div>a{
+  color: white;
+ } 
+ 
+
+/* Meninas, usem assim quando precisarem especificar as fontes diferentes 
+font-family: 'Dancing Script', cursive; */
 a:hover {
   text-decoration: none;
   color: white;
@@ -229,3 +249,14 @@ margin: -32px 100px 0 100px;
   /* or 167% */  
   color: #542F17;
 }
+
+/* 
+@media screen and (max-width: 780px) {
+  /* .produtos{
+display: flex;
+align-items: center;
+
+  } 
+
+
+} */
