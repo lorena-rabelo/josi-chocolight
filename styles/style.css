@@ -78,9 +78,6 @@ h2 {
  
 }
 
-
-
-
 .img_section{
     padding-top: 25px;
     background-color:#DED3CF;
@@ -108,6 +105,11 @@ p{
    margin-right: auto 
 }
 
+.bordinha{
+  background-color:#FD92BC;
+  width: 100%;
+}
+
 footer{
   background-color: #FD92BC;
   color: white;
@@ -118,6 +120,7 @@ footer{
 
 footer>h2{
   height: 60px;
+  color: white;
 }
 
 footer>div>a{
@@ -163,13 +166,6 @@ a:hover {
   z-index: 100;
   position: inherit;
  }
-
-
-
-
-
-  
-
 
 .navtext{
   display: flex;
