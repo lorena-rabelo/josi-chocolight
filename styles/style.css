@@ -26,21 +26,9 @@ h2 {
   color: #542F17;
 }
 
-/* .bordasup {
-  background-color: rgb(245, 245, 245);
-  width: 100%;
-}
-
-.bordainf {
-  background-color: #261A13;
-  width: 100%;
-}
-
-.img_section {
-  padding-top: 25px;
-  background-color: #DED3CF;
-  color: #542F17;
-  margin: auto;
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .img_produtos {
@@ -59,13 +47,12 @@ h2 {
 }
 
 /* HEADER */
-
-.headerbackgound {
-  z-index: -1;
-  background: url(../img/img_banners/bg.header.svg);
+ .headerbackgound {
+   z-index: -1;
+   background: url(../img/img_banners/bg.header.svg) no-repeat;
 }
 
-.imglogo {
+ .imglogo{
   width: 200px;
   height: 200px;
 }
@@ -102,11 +89,10 @@ li {
   color: #FD92BC;
 }
 
-.imgscarousel {
-  margin: -32px 100px 0 100px;
+.imgscarousel{
+margin: -32px 100px 0 100px;
+border-radius: 10px;
 }
-
-/* Sobre */
 
 .chocolight {
   background: rgb(245, 245, 245);
@@ -271,15 +257,8 @@ a:hover {
   color: white;
 }
 
-/* 
-@media screen and (max-width: 780px) {
-  /* .produtos{
-display: flex;
-align-items: center;
-  } 
-} */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 420px) {
   h1 {
     font-size: 48px;
     line-height: 52px;
@@ -310,6 +289,19 @@ align-items: center;
   .sobre__imagens {  
     margin-top: -50px;
 }
-
-
+.img_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
+.bordasup{
+  margin-top: -20px;
+  
+}
+.bordainf{
+  margin-top: -20px;
+}
+.icones_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
 }
