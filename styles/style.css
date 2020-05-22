@@ -70,6 +70,7 @@ a:hover {
   position: inherit;
 }
 
+
 .navtext {
   display: flex;
   justify-content: center;
@@ -266,6 +267,10 @@ a:hover {
     margin: 50px auto 0px auto;
   }
 
+  .navfundo{
+    display: none;
+  }
+
   .chocolight {    
     padding-bottom: 50px;
     line-height: 52px;
@@ -289,6 +294,11 @@ a:hover {
   .sobre__imagens {  
     margin-top: -50px;
 }
+<<<<<<< HEAD
+
+
+
+=======
 .img_section{
   margin-top: -20px;
   padding-top: 0px;
@@ -304,4 +314,5 @@ a:hover {
   margin-top: -20px;
   padding-top: 0px;
 }
+>>>>>>> b3c5744adf6aea290d7d766a2bc604fac91f0608
 }
