@@ -116,8 +116,8 @@ a:hover {
 /* HEADER */
  .headerbackgound {
    z-index: -1;
-   background: url(../img/img_banners/bg.header.svg);
- }
+   background: url(../img/img_banners/bg.header.svg) no-repeat;
+}
 
  .imglogo{
   width: 200px;
@@ -165,7 +165,7 @@ li{
 
 .imgscarousel{
 margin: -32px 100px 0 100px;
-
+border-radius: 10px;
 
 }
 .chocolight {
