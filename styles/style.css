@@ -108,6 +108,7 @@ p{
 .bordinha{
   background-color:#FD92BC;
   width: 100%;
+  min-width: 100%;
 }
 
 footer{
