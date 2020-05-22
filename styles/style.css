@@ -26,7 +26,6 @@ h2 {
   color: #542F17;
 }
 
-
 /* HEADER */
 
 .headerbackgound {
@@ -241,7 +240,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 420px) {
   h1 {
     font-size: 48px;
     line-height: 52px;
@@ -272,13 +271,20 @@ a:hover {
   .sobre__imagens {  
     margin-top: -50px;
 }
-.produtos img{
- margin-left: 90px;
+.img_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
+.bordasup{
+  margin-top: -20px;
+  
+}
+.bordainf{
+  margin-top: -20px;
+}
+.icones_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
 }
 
-}
-@media screen and (max-width: 780px) {
-  .produtos img{
-    margin-left:90px;
-   }
-   
