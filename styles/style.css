@@ -66,6 +66,7 @@ h2 {
 
 }
 
+
 .bordasup{
   background-color:rgb(245, 245, 245);
   width: 100%;
@@ -77,8 +78,6 @@ h2 {
     width: 100%;
  
 }
-
-
 
 
 .img_section{
@@ -96,7 +95,7 @@ h2 {
     border-radius: 10px;
 }
 
-p{
+.img_section p{
     font-family: 'Dancing Script', cursive;
     font-style: bold;
     font-size: 25px;
@@ -163,12 +162,6 @@ a:hover {
   z-index: 100;
   position: inherit;
  }
-
-
-
-
-
-  
 
 
 .navtext{
@@ -250,13 +243,4 @@ margin: -32px 100px 0 100px;
   color: #542F17;
 }
 
-/* 
-@media screen and (max-width: 780px) {
-  /* .produtos{
-display: flex;
-align-items: center;
 
-  } 
-
-
-} */
