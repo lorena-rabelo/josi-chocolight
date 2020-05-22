@@ -17,24 +17,26 @@
 
 <body>
 
+  
     <!-- HEADER.  -->
     <header class="headerbackgound">
         <div class="d-flex justify-content-center">
             <img src="img/Logo.png" alt="Logo Josi Chocolight">
         </div>
         <!-- NAV -->
-        <section>
-            <div>
+        <section class="sectionnav">
+            <div class="divmenu">
+                <img class="navfundo" src="./img/fundonav.svg" alt="Fundo marrom barra de menu">
                 <nav class="navmenu">
                     <ul class="navtext">
                         <li>
-                            <a href="#">INÍCIO</a>
+                            <a class="text-white" href="#">INÍCIO</a>
                         </li>
                         <li>
-                            <a href="#"> QUEM FAZ</a>
+                            <a class="text-white" href="#"> QUEM FAZ</a>
                         </li>
                         <li>
-                            <a href="#">NOSSOS PRODUTOS</a>
+                            <a class="text-white" href="#">NOSSOS PRODUTOS</a>
                         </li>
                         <li>
                             <a href="#"><span class="textcolorlink">SOLICITE UM ORÇAMENTO</span></a>
@@ -43,7 +45,7 @@
                 </nav>
             </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide imgscarousel" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -55,10 +57,10 @@
                             alt="Primeiro Slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 imagem-carousel " src="img/Bolo2.jpeg" alt="Segundo Slide">
+                        <img class="d-block w-100 imagem-carousel " src="img/img_banners/Bolo3.jpeg" alt="Segundo Slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 imagem-carousel" src="img/Bolo3.jpeg" alt="Terceiro Slide">
+                        <img class="d-block w-100 imagem-carousel" src="img/img_banners/Bolo4.jpeg" alt="Terceiro Slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
@@ -86,27 +88,38 @@
             </div>
             <div class="sobre__texto">
                 <h2>Josi Chocolight</h2>
-                <p>Muffin cheesecake bear claw donut jelly-o. Jelly beans chocolate jujubes. Marshmallow dragée muffin
-                    marshmallow. Marshmallow bear claw jelly cotton candy. Sweet roll lollipop tiramisu cupcake. Sweet
-                    apple pie
-                    apple pie.
-                    Dragée tart lollipop candy canes dragée dragée sweet jelly icing. Powder powder gingerbread. Tart
-                    sweet
-                    chocolate bar
-                    gummies marzipan danish. Jelly sweet marshmallow gummies danish. Cotton candy muffin jelly-o
-                    chocolate. Toffee
-                    tiramisu soufflé gummi bears pastry dragée. Wafer tiramisu topping soufflé halvah. Sesame snaps
-                    biscuit sweet
-                    bear claw pudding sweet lollipop marshmallow.
+                <p>Empresa de alimentos e eventos localizada na periferia da Zona Sul de São
+                    Paulo.
+                    Realizamos eventos corporativos e familiares.
+                    Garantimos profissionais treinados, atendimento personalizado, pontualidade, qualidade e
+                    comprometimento, garantindo total satisfação do Cliente.
+                </p>
+                <!-- Principais produtos
+                    Pães: tradicionais, integrais, veganos, recheados
+                    Bolos simples e confeitados: muffim, cake pop, cupcake, naked cake
+                    Chocolates: trufas, pão de mel, alfajor
+                    Datas comemorativas: Kit festas, kit café da manhã, kit namorados, ovos de Páscoa e outros... -->
+                <p>
+                    História da idealizadora:
+                    Josiane Macedo Dias, mulher negra e empreendedora periférica. Iniciou a arte de cozinhar aos 16
+                    anos, após um curso técnico de panificação e confeitaria. Foi educadora técnica social em uma ONG,
+                    onde ministrava aulas práticas de confeitaria para jovens
+                    de 15 a 17 anos. Junto com o trabalho, fez formação em Tecnologia de Eventos, Serviço Social e Pós
+                    graduação em
+                    Gestão de Políticas Públicas e Elaboração de Projetos Sociais.
+
+                    Em 2016, com o término de uma formação para microempreendedores periféricos, formalizou a empresa
+                    Josi Chocolight.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- NOSSOS PRODUTOS  -->
-
+    <img src="./img/bordasup.png" class="bordasup" alt="#">
     <section class="img_section">
-        <h2 class="text-center pb-2 pt-5"> Nossos Produtos </h2>
+       
+        <h2 class="text-center pb-2 pt-3"> Nossos Produtos </h2>
         <div class="produtos d-flex flex-column flex-md-row justify-content-md-around p-3">
 
             <div>
@@ -126,15 +139,12 @@
                 <p class="text-center p-2 font-weight-bold">Salgados</p>
             </div>
         </div>
-        <a class="mb-3 d-block mr-auto ml-auto"><img src="./img/orcamento.svg" href="https://bit.ly/josichocolight"
-                target="_black" class="orcamento" alt="imagem de solicitar orçamento"></a>
-        <div>
-            <img src="./img/barra.svg" class="">
-        </div>
+        <a class="mb-3 d-block mr-auto ml-auto pb-3"><img src="./img/orcamento.svg" href="https://bit.ly/josichocolight"target="_black" class="orcamento" alt="imagem de solicitar orçamento"></a>
+        <img src="./img/barrainf.svg" class="bordainf" alt="#">
     </section>
-
+  
     <!-- REDES SOCIAIS.  -->
-    <section class="icones">
+    <section class="icones_section">
         <h2>Siga nas redes sociais</h2>
 
         <div class="imagem">
@@ -147,13 +157,15 @@
         </div>
 
         <div>
-            <a href="https://www.instagram.com/josichocolight/" target="_blank" class="sociais">
+            <a href="https://www.instagram.com/josichocolight/" target="_blank" class="sociais ">
                 <img src="./img/Instagram.svg" alt="">
             </a>
             <a href="https://www.facebook.com/josichocolight/" target="_blank" class="sociais">
                 <img src="./img/Facebook.png" alt=""></a>
         </div>
+  
     </section>
+    <img src="img/Group 7 (1).svg" class="bordinha" alt="#">
 
  <!-- ORÇAMENTO. -->
         <footer>
@@ -163,10 +175,9 @@
                 <a href="https://wa.me/5511999846463?text=Olá%20Josi,%20gostaria%20de%20um%20orçamento!%20Pode%20ser?" target="_black">Whatsapp:
                     (11) 99984-6463</a>
             </div>
-            <p>&copy; 2020 josi Chocolight. Todos os direitos reservados.</p>
+            <p>© 2020 josi Chocolight. Todos os direitos reservados.</p>
         </footer>
  
-..
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
