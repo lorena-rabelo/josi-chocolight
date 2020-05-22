@@ -26,14 +26,18 @@ h2 {
   color: #542F17;
 }
 
-/* HEADER */
-
-.headerbackgound {
-  z-index: -1;
-  background: url(../img/img_banners/bg.header.svg);
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
-.imglogo {
+/* HEADER */
+ .headerbackgound {
+   z-index: -1;
+   background: url(../img/img_banners/bg.header.svg) no-repeat;
+}
+
+ .imglogo{
   width: 200px;
   height: 200px;
 }
@@ -70,11 +74,10 @@ li {
   color: #FD92BC;
 }
 
-.imgscarousel {
-  margin: -32px 100px 0 100px;
+.imgscarousel{
+margin: -32px 100px 0 100px;
+border-radius: 10px;
 }
-
-/* Sobre */
 
 .chocolight {
   background: rgb(245, 245, 245);
