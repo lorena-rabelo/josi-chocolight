@@ -35,6 +35,7 @@ a:hover {
  .headerbackgound {
    z-index: -1;
    background: url(../img/img_banners/bg.header.svg) no-repeat;
+   object-fit: cover;
 }
 
  .imglogo{
@@ -279,11 +280,6 @@ a:hover {
   .sobre__imagens {  
     margin-top: -50px;
 }
-<<<<<<< HEAD
-
-
-
-=======
 .img_section{
   margin-top: -20px;
   padding-top: 0px;
@@ -299,5 +295,4 @@ a:hover {
   margin-top: -20px;
   padding-top: 0px;
 }
->>>>>>> b3c5744adf6aea290d7d766a2bc604fac91f0608
 }
