@@ -51,15 +51,12 @@ h2 {
   border-radius: 10px;
 } */
 
-<<<<<<< HEAD
-=======
 
 a:hover {
   text-decoration: none;
   color: white;
 }
 
->>>>>>> 31e875988c6dc5b7054a532e2f00c1faef78a9b1
 /* HEADER */
  .headerbackgound {
    z-index: -1;
