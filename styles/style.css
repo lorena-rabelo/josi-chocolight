@@ -31,6 +31,21 @@ a:hover {
   color: white;
 }
 
+.img_produtos {
+  max-width: 185px;
+  background-color: #DED3CF;
+  color: #542F17;
+  height: 185px;
+  border-radius: 10px;
+} */
+
+
+.bordinha{
+  background-color:#FD92BC;
+  width: 100%;
+  min-width: 100%;
+}
+
 /* HEADER */
  .headerbackgound {
    z-index: -1;
