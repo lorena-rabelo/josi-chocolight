@@ -51,14 +51,22 @@ h2 {
   border-radius: 10px;
 } */
 
-/* HEADER */
+<<<<<<< HEAD
+=======
 
-.headerbackgound {
-  z-index: -1;
-  background: url(../img/img_banners/bg.header.svg);
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
-.imglogo {
+>>>>>>> 31e875988c6dc5b7054a532e2f00c1faef78a9b1
+/* HEADER */
+ .headerbackgound {
+   z-index: -1;
+   background: url(../img/img_banners/bg.header.svg) no-repeat;
+}
+
+ .imglogo{
   width: 200px;
   height: 200px;
 }
@@ -95,11 +103,10 @@ li {
   color: #FD92BC;
 }
 
-.imgscarousel {
-  margin: -32px 100px 0 100px;
+.imgscarousel{
+margin: -32px 100px 0 100px;
+border-radius: 10px;
 }
-
-/* Sobre */
 
 .chocolight {
   background: rgb(245, 245, 245);
