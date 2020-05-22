@@ -111,16 +111,28 @@ footer>p{
 a:hover {
   text-decoration: none;
   color: white;
-<<<<<<< HEAD
  }
 
+/* HEADER */
+ .headerbackgound {
+   z-index: -1;
+   background: url(../img/img_banners/bg.header.svg);
+ }
+
+ .imglogo{
+  width: 200px;
+  height: 200px;
+}
+/* NAV */
 .sectionnav{
   position: relative;
 }
+
 .divmenu{
   margin: 0 auto;
   text-align: center;
-    z-index: 100;
+  z-index: 100;
+  position: inherit;
  }
 
 .navfundo{
@@ -135,21 +147,13 @@ a:hover {
   justify-content: center;
   margin-top: -40px;
 
-=======
-}
 
-nav{
- background: url(../img/fundonav.svg) no-repeat;
- display: flex;
-}
-
-.navmenu{
-  justify-content: space-evenly;
->>>>>>> a539738328579df6e1a3152dc9c59f581642c5c6
 }
 
 .navtext > li {
-margin: 0 18px;
+  list-style: none;
+  margin: 0 18px;
+  
 }
 
 li{
@@ -157,21 +161,12 @@ li{
 }
 
 .textcolorlink {
-    color: #FD92BC;
+  color: #FD92BC;
 }
 
-.headerbackgound {
-  z-index: -1;
-  background: url(../img/img_banners/bg.header.svg);
-}
-
-.imglogo{
-    width: 200px;
-    height: 200px;
-}
 .imgscarousel{
-margin: -50px 100px 0 100px;
-z-index: 1;
+margin: -32px 100px 0 100px;
+
 
 }
 .chocolight {
