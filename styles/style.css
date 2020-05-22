@@ -1,6 +1,7 @@
 html {
   font-family: 'Open Sans', sans-serif;
   color: #542F17;
+  background: rgb(245, 245, 245);
 }
 
 h1 {
@@ -51,19 +52,20 @@ h2 {
   border-radius: 10px;
 } */
 
-
 a:hover {
   text-decoration: none;
   color: white;
 }
 
 /* HEADER */
- .headerbackgound {
-   z-index: -1;
-   background: url(../img/img_banners/bg.header.svg) no-repeat;
+
+.headerbackgound {
+  z-index: -1;
+  background: url(../img/img_banners/bg.header.svg) no-repeat;
+  background-size: cover;
 }
 
- .imglogo{
+.imglogo {
   width: 200px;
   height: 200px;
 }
@@ -100,13 +102,21 @@ li {
   color: #FD92BC;
 }
 
-.imgscarousel{
-margin: -32px 100px 0 100px;
-border-radius: 10px;
+.imgscarousel {
+  margin: -32px 100px 0 100px;
+  border-radius: 10px;
+}
+
+.img-principal {
+  border-radius: 8px;
+  max-width: 1224px;
+  max-height: 520px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .chocolight {
-  background: rgb(245, 245, 245);
+  /* background: rgb(245, 245, 245); */
   padding-top: 10px;
   padding-bottom: 140px;
 }
