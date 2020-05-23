@@ -21,7 +21,7 @@ h2 {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 30px;
+  line-height: 60px;
   text-align: center;
   color: #542F17;
 }
@@ -162,7 +162,7 @@ border-radius: 10px;
 }
 
 .img_section {
-  padding-top: 25px;
+  /* padding-top: 25px; */
   background-color: #DED3CF;
   color: #542F17;
   margin: auto;
@@ -241,6 +241,7 @@ footer {
 footer>h2 {
   height: 60px;
   color: white;
+  line-height: 30px;
 }
 
 footer>div>a {
@@ -275,18 +276,22 @@ a:hover {
     padding-bottom: 50px;
     line-height: 52px;
 }
+
   .sobre {
     display: flex;
     flex-direction: column;
   }
+
   .sobre__texto {
     max-width: 90%;
     margin: -50px auto 0 auto;
   }
+
   .sobre__imagens--autora {
     max-width: 250px;
     margin-left: -220px;
   }
+
   .sobre__imagens--fundo {
     max-width: 300px;
   }
@@ -294,25 +299,30 @@ a:hover {
   .sobre__imagens {  
     margin-top: -50px;
 }
-<<<<<<< HEAD
 
-
-
-=======
 .img_section{
   margin-top: -20px;
   padding-top: 0px;
 }
+
 .bordasup{
   margin-top: -20px;
-  
 }
+
 .bordainf{
   margin-top: -20px;
 }
+
 .icones_section{
   margin-top: -20px;
   padding-top: 0px;
 }
->>>>>>> b3c5744adf6aea290d7d766a2bc604fac91f0608
+
+.imagem{
+  margin: 10px auto;
+} 
+
+footer>h2 {
+  height: 80px;
+}
 }
