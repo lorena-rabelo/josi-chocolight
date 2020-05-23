@@ -27,31 +27,6 @@ h2 {
   color: #542F17;
 }
 
-/* .bordasup {
-  background-color: rgb(245, 245, 245);
-  width: 100%;
-}
-
-.bordainf {
-  background-color: #261A13;
-  width: 100%;
-}
-
-.img_section {
-  padding-top: 25px;
-  background-color: #DED3CF;
-  color: #542F17;
-  margin: auto;
-}
-
-.img_produtos {
-  max-width: 185px;
-  background-color: #DED3CF;
-  color: #542F17;
-  height: 185px;
-  border-radius: 10px;
-} */
-
 a:hover {
   text-decoration: none;
   color: white;
@@ -87,6 +62,10 @@ a:hover {
   text-align: center;
   z-index: 100;
   position: inherit;
+}
+
+.navfundo {
+  max-width: 674px;
 }
 
 .navtext {
@@ -375,4 +354,12 @@ align-items: center;
   .sobre__imagens {
     margin-top: -50px;
   }
+
+  .imagem {
+    display:none;
+  }
+
+  .sociais>img {
+    margin: 60px 15px 60px 15px;
+}
 }
