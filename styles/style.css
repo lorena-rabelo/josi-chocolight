@@ -6,6 +6,7 @@ html {
 
 body {
   background: rgb(245, 245, 245);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-family: Dancing Script;
+  font-family: 'Dancing Script', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -238,7 +239,7 @@ li {
 /* Footer */
 
 p {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing ', cursive;
   font-style: bold;
   font-size: 25px;
 }
@@ -291,7 +292,7 @@ a:hover {
     margin: 50px auto -20px auto;
   }
   /* .navfundo {
-    display: none;
+        display: none;
   } */
   .chocolight {
     padding-bottom: 70px;
@@ -423,7 +424,6 @@ a:hover {
   footer>h2 {
     height: 80px;
   }
-  
   .imagem {
     display: none;
   }
