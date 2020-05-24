@@ -158,7 +158,7 @@ li {
 /* Nossos produtos */
 
 .bordasup {
-  background-color: rgb(245, 245, 245);
+  background-color:white;
   width: 100%;
   
 }
@@ -169,7 +169,7 @@ li {
 }
 
 .img_section {
-  /* padding-top: 25px; */
+   padding-top: 0px; 
   background-color: #DED3CF;
   color: #542F17;
   margin: auto;
@@ -310,7 +310,7 @@ a:hover {
     max-width: 350px;
   }
   .bordasup{
-    margin-top: -20px;
+    margin-top: 3px;
     
   }
   .img_section{
@@ -395,7 +395,7 @@ a:hover {
 }
 
 .bordasup{
-  margin-top: -20px;
+ 
 }
 
 .bordainf{
@@ -449,3 +449,4 @@ footer>h2 {
 }
 
 
+}
