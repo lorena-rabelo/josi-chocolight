@@ -309,13 +309,11 @@ a:hover {
   .sobre__imagens--fundo {
     max-width: 350px;
   }
-<<<<<<< HEAD
   /* /* .produtos{
 display: flex;
 align-items: center;
   }  */
 }
-=======
   .bordasup{
     margin-top: 3px;
     
@@ -335,7 +333,6 @@ align-items: center;
 
     }
   }
->>>>>>> c28809ce40f87c5285edc1167d9122ed5068f960
 
 @media screen and (max-width: 426px) {
   h1 {
@@ -395,7 +392,6 @@ align-items: center;
   }
   .sobre__imagens {
     margin-top: -50px;
-<<<<<<< HEAD
   }
 
   .imagem {
@@ -406,7 +402,6 @@ align-items: center;
     margin: 60px 15px 60px 15px;
 }
 }
-=======
 }
 
 .img_section{
@@ -468,6 +463,5 @@ footer>h2 {
     margin: 60px 15px 60px 15px;
 }
 
-}
 
->>>>>>> c28809ce40f87c5285edc1167d9122ed5068f960
+
