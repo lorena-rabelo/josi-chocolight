@@ -1,10 +1,11 @@
 html {
   font-family: 'Open Sans', sans-serif;
   color: #542F17;
+  background: rgb(245, 245, 245);
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing ', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -17,15 +18,16 @@ h1 {
 }
 
 h2 {
-  font-family: Dancing Script;
+  font-family: Dancing ;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 30px;
+  line-height: 60px;
   text-align: center;
   color: #542F17;
 }
 
+<<<<<<< HEAD
 /* .bordasup {
   background-color: rgb(245, 245, 245);
   width: 100%;
@@ -76,18 +78,33 @@ footer{
 footer>h2{
   height: 60px;
 }
+=======
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER */
+>>>>>>> a0ab7f04d5c868b27c251666294f502d225a3ea4
 
 .headerbackgound {
   z-index: -1;
-  background: url(../img/img_banners/bg.header.svg);
+  background: url(../img/img_banners/bg.header.svg) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -100px;
 }
 
-.imglogo {
-  width: 200px;
-  height: 200px;
+.logo {
+  height: 60px;
+  margin: 40px auto;
 }
 
 /* NAV */
+
+.menu-hamburguer {
+  display: none;
+}
 
 .sectionnav {
   position: relative;
@@ -98,6 +115,10 @@ footer>h2{
   text-align: center;
   z-index: 100;
   position: inherit;
+}
+
+.navfundo {
+  max-width: 674px;
 }
 
 .navtext {
@@ -121,12 +142,19 @@ li {
 
 .imgscarousel {
   margin: -32px 100px 0 100px;
+  border-radius: 10px;
 }
 
-/* Sobre */
+.img-principal {
+  border-radius: 8px;
+  max-width: 1224px;
+  max-height: 520px;
+  object-fit: cover;
+  margin: 0 auto;
+}
 
 .chocolight {
-  background: rgb(245, 245, 245);
+  /* background: rgb(245, 245, 245); */
   padding-top: 10px;
   padding-bottom: 140px;
 }
@@ -146,7 +174,7 @@ li {
 }
 
 .sobre__imagens--fundo {
-  max-width: 496px;
+  max-width: 400px;
   height: 640px;
 }
 
@@ -167,6 +195,7 @@ li {
 
 .sobre__texto h2 {
   margin-bottom: 44px;
+  text-align: left;
 }
 
 .sobre__texto p {
@@ -184,6 +213,7 @@ li {
 .bordasup {
   background-color: rgb(245, 245, 245);
   width: 100%;
+  
 }
 
 .bordainf {
@@ -192,18 +222,33 @@ li {
 }
 
 .img_section {
-  padding-top: 25px;
+  /* padding-top: 25px; */
   background-color: #DED3CF;
   color: #542F17;
   margin: auto;
 }
+.produtos{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px auto;
+  flex-direction: row;
+align-items: center;
+justify-content: center;
+  }
+
+/* flex-column flex-md-row  */
 
 .img_produtos {
-  max-width: 185px;
+   max-width: 185px; 
   background-color: #DED3CF;
   color: #542F17;
-  height: 185px;
+   height: 185px;
   border-radius: 10px;
+  object-fit: cover; 
+  margin: auto 50px;
+  padding: auto;
+  
 }
 
 /* Redes Sociais */
@@ -245,7 +290,7 @@ li {
 /* Footer */
 
 p {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing ', cursive;
   font-style: bold;
   font-size: 25px;
 }
@@ -272,6 +317,7 @@ footer {
 footer>h2 {
   height: 60px;
   color: white;
+  line-height: 30px;
 }
 
 footer>div>a {
@@ -289,45 +335,152 @@ a:hover {
   color: white;
 }
 
-/* 
 @media screen and (max-width: 780px) {
-  /* .produtos{
-display: flex;
-align-items: center;
-  } 
-} */
-
-@media screen and (max-width: 426px) {
   h1 {
-    font-size: 48px;
-    line-height: 52px;
-    max-width: 330px;
-    margin: 50px auto 0px auto;
+    font-size: 42px;
+    line-height: 51px;
+    max-width: 500px;
+    margin: 50px auto -20px auto;
   }
-
-  .chocolight {    
-    padding-bottom: 50px;
-    line-height: 52px;
-}
+  /* .navfundo {
+    display: none;
+  } */
+  .chocolight {
+    padding-bottom: 70px;
+  }
   .sobre {
     display: flex;
     flex-direction: column;
   }
   .sobre__texto {
     max-width: 90%;
+    margin: 0 auto;
+  }
+  .sobre__imagens--autora {
+    max-width: 300px;
+    margin-left: -250px;
+  }
+  .sobre__imagens--fundo {
+    max-width: 350px;
+  }
+  /* /* .produtos{
+display: flex;
+align-items: center;
+  }  */
+}
+  .bordasup{
+    margin-top: 3px;
+    
+  }
+  .img_section{
+    margin-top: 0px;
+  }
+    .bordainf{
+      margin-top: 2px;
+      padding-top: 0px;
+      max-width: -100px;
+     
+    }
+    .produtos{
+      display: flex;
+      justify-content:column;
+
+    }
+  }
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 48px;
+    line-height: 52px;
+    max-width: 330px;
+    margin: -50px auto 0px auto;
+  }
+  .logo {
+    margin: -20px auto 20px auto;
+  }
+  .imgscarousel {
+    min-height: 350px;
+    margin-top: 50px;
+    margin: 0 auto;
+    border-radius: 0px;
+  }
+   
+  .menu-hamburguer {
+    display: block;
+    padding: 16px;
+  }
+  .navfundo {
+    display: none;
+  }
+  .img-principal {
+    width: 100%;
+    max-height: 520px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 0px;
+  }
+  .chocolight {
+    padding-bottom: 50px;
+    line-height: 52px;
+  }
+  .navtext {
+    display: none;
+  }
+  .sobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sobre__texto {
+    max-width: 90%;
     margin: -50px auto 0 auto;
   }
+
   .sobre__imagens--autora {
     max-width: 250px;
     margin-left: -220px;
   }
+
   .sobre__imagens--fundo {
     max-width: 300px;
   }
-
-  .sobre__imagens {  
+  .sobre__imagens {
     margin-top: -50px;
+  }
+
+  .imagem {
+    display:none;
+  }
+
+  .sociais>img {
+    margin: 60px 15px 60px 15px;
 }
+}
+}
+
+.img_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
+
+.bordasup{
+  margin-top: -20px;
+}
+
+.bordainf{
+  margin-top: -10px;
+}
+ .icones_section{
+  margin-top: -10px;
+  padding-top: 20px;
+}
+.img_produtos{
+  margin: 0px 140px;
+  
+  
+} 
+.orcamento{
+  width: 120px;
 
 .imagem{
   display: none;
@@ -335,3 +488,38 @@ align-items: center;
 
 
 }
+.img_section h2{
+  font-size: 40px;
+  font-style: bold;
+  margin-right: 0px; 
+
+}
+
+.produtos{
+display: block; 
+margin-left: -50px;
+}
+.icones_section{
+  margin-top: -20px;
+  padding-top: 0px;
+}
+
+.imagem{
+  margin: 10px auto;
+} 
+
+footer>h2 {
+  height: 80px;
+}
+  
+
+  .imagem {
+    display:none;
+  }
+
+  .sociais>img {
+    margin: 60px 15px 60px 15px;
+}
+
+}
+
