@@ -12,37 +12,36 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e45a5a40ee.js" crossorigin="anonymous"></script>
-    <title>Josi Chocolight</title>
+   <title>Josi Chocolight</title>
 </head>
 
 <body>
 
-  
+
     <!-- HEADER.  -->
     <header class="headerbackgound">
-        <img class="menu-hamburguer" src="img/img menu hamburguer.svg">                
+        <span class="menu-hamburguer" id="menusuperior"></span>
+        <!-- <img class="menu-hamburguer" id="menusuperior"src="img/img menu hamburguer.svg"> -->
         <div class="d-flex justify-content-center">
-            <img class="logo" src="img/Logo.png" alt="Logo Josi Chocolight">
+            <img class="logo" src="./img/Logo.png" alt="Logo Josi Chocolight">
         </div>
         <!-- NAV -->
         <section class="sectionnav">
             <div class="divmenu">
                 <img class="navfundo" src="./img/fundonav.svg" alt="Fundo marrom barra de menu">
                 <nav class="navmenu">
-                   
                     <ul class="navtext">
                         <li>
                             <a class="text-white" href="#">INÍCIO</a>
                         </li>
                         <li>
-                            <a class="text-white" href="#"> QUEM FAZ</a>
+                            <a class="text-white" href="#sobrequemfaz"> QUEM FAZ</a>
                         </li>
                         <li>
-                            <a class="text-white" href="#">NOSSOS PRODUTOS</a>
+                            <a class="text-white" href="#nossosprodutos">NOSSOS PRODUTOS</a>
                         </li>
                         <li>
-                            <a href="#"><span class="textcolorlink">SOLICITE UM ORÇAMENTO</span></a>
+                            <a href="#soliciteorcamento"><span class="textcolorlink">SOLICITE UM ORÇAMENTO</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -56,8 +55,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 img-principal" src="img/img_banners/Bolo1.jpeg"
-                            alt="Primeiro Slide">
+                        <img class="d-block w-100 img-principal" src="img/img_banners/Bolo1.jpeg" alt="Primeiro Slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100 img-principal" src="img/img_banners/Bolo2.jpeg" alt="Segundo Slide">
@@ -80,10 +78,10 @@
 
 
     <!-- SOBRE.  -->
-    
+
     <section class="chocolight">
         <h1>Bolos, doces e salgados, preparados com <b><i>muito amor</i></b>!</h1>
-        <div class="sobre">
+        <div class="sobre" id="sobrequemfaz">
             <div class="sobre__imagens">
                 <img class="sobre__imagens--fundo" src="img/retangulos-doces-rosa.svg"
                     alt="Imagem com fundo rosa e desenhos de doces">
@@ -117,15 +115,15 @@
     </section>
 
     <!-- NOSSOS PRODUTOS  -->
-    
-    <section class="img_section">
-        <img src="./img/bordasup.png" class="bordasup" alt="#">
+    <img src="./img/bordasup.png" class="bordasup" alt="#">
+    <section class="img_section" id="nossosprodutos">
+       
         <h2 class=" pt-4"> Nossos Produtos </h2>
         <div class="produtos p-3"> 
 
             <div>
                 <img src="./img/bolomorango.jpeg" class="img_produtos" alt="Imagem de bolo">
-                <p class="text-center p-2 bold font-weight-bold">Bolos</p>
+                <p class="text-center p-2 bold font-weight-bold ml-3">Bolos</p>
             </div>
             <div>
                 <img src="./img/kitfesta.jpeg" class="img_produtos" alt="Imagem de um kit festas">
@@ -140,10 +138,12 @@
                 <p class="text-center p-2 font-weight-bold">Salgados</p>
             </div>
         </div>
-        <a class="mb-3 d-block mr-auto ml-auto pb-3" href="https://bit.ly/josichocolight"target="_black"><img src="./img/orcamento.svg" href="https://bit.ly/josichocolight"target="_black" class="orcamento" alt="imagem de solicitar orçamento"></a>
+        <a class="mb-3 d-block mr-auto ml-auto pb-3" href="https://bit.ly/josichocolight" target="_black"><img
+                src="./img/orcamento.svg" href="https://bit.ly/josichocolight" target="_black" class="orcamento"
+                alt="imagem de solicitar orçamento"></a>
         <img src="./img/barrainf.svg" class="bordainf" alt="#">
     </section>
-  
+
     <!-- REDES SOCIAIS.  -->
     <section class="icones_section">
         <h2>Siga nas redes sociais</h2>
@@ -157,30 +157,32 @@
             <img class="doce" src="./img/doce 7.jpg" alt="Imagem  de doces">
         </div>
 
-        <div>
-            <a href="https://www.instagram.com/josichocolight/" target="_blank" class="sociais ">
+        <div class="sociais">
+            <a href="https://www.instagram.com/josichocolight/" target="_blank">
                 <img src="./img/Instagram.svg" alt="">
             </a>
-            <a href="https://www.facebook.com/josichocolight/" target="_blank" class="sociais">
+            <a href="https://www.facebook.com/josichocolight/" target="_blank" >
                 <img src="./img/Facebook.png" alt=""></a>
         </div>
   
         <img src="img/Group 7 (1).svg" class="bordinha" alt="#">
     </section>
 
- <!-- ORÇAMENTO. -->
-        <footer>
-            <h2>Solicite um orçamento</h2>
-            <div>
-                <a href="mailto:josichocolight@gmail.com" target="_black">josichocolight@gmail.com</a><br>
-                <a href="https://wa.me/5511999846463?text=Olá%20Josi,%20gostaria%20de%20um%20orçamento!%20Pode%20ser?" target="_black">Whatsapp:
-                    (11) 99984-6463</a>
-            </div>
-            <p>© 2020 Josi Chocolight. Todos os direitos reservados.</p>
-        </footer>
- 
+    <!-- ORÇAMENTO. -->
+    <footer id="soliciteorcamento">
+        <h2>Solicite um orçamento</h2>
+        <div>
+            <a href="mailto:josichocolight@gmail.com" target="_black">josichocolight@gmail.com</a><br>
+            <a href="https://wa.me/5511999846463?text=Olá%20Josi,%20gostaria%20de%20um%20orçamento!%20Pode%20ser?"
+                target="_black">Whatsapp:
+                (11) 99984-6463</a>
+        </div>
+        <p>© 2020 Josi Chocolight. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
