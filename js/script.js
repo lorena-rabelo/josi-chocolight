@@ -1,8 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $("#menusuperior").click(function() {
-        $("ul").css("display", "block");
-        $(".navtext").css(" flex-direction", ".menu-hamburguer")
+    $('#menusuperior').click(function () {
+        console.log("testado");
+        $(this).toggleClass('active');
+        $(".logo").toggleClass('active');
+        $(".navtext").toggleClass('active');
+
     })
-  
+
 })
+
