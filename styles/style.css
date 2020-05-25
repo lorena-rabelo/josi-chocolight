@@ -136,7 +136,7 @@ li {
   max-height: 514px;
   /* z-index: 1; */
   margin-left: -300px;
-  border: 2px solid;
+  /* border: 2px solid; */
 }
 
 .sobre__texto {
@@ -183,10 +183,14 @@ li {
 .produtos {
   display: flex;
   flex-wrap: wrap;
-  margin: 70px auto;
+  margin: 40px auto;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.produtos p {
+  font-family: 'Dancing Script', cursive;
 }
 
 /* flex-column flex-md-row  */
@@ -315,6 +319,9 @@ a:hover {
     max-width: 90%;
     margin: 0 auto;
   }
+  .sobre h2 {
+    text-align: center;
+  }
   .sobre__imagens--autora {
     max-width: 300px;
     margin-left: -250px;
@@ -339,7 +346,91 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 700px) {
+  .logo {
+    margin: 40px auto 20px auto;
+  }
+  .logo.active {
+    display: none;
+  }
+  .navfundo {
+    display: none;
+  }
+  /* MENU LATERAL */
+  .menu-hamburguer {
+    display: block;
+    color: #542f17;
+    width: 36px;
+    height: 36px;
+    border-top: 4px solid;
+    margin: 20px 0px 8px 5%;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    z-index: 2;
+    order: -1;
+    /* 
+    display: block;
+    padding: 16px; */
+  }
+  .menu-hamburguer::after, .menu-hamburguer::before {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  .menu-hamburguer.active {
+    border-top-color: transparent;
+    z-index: 200;
+    position: absolute;
+  }
+  .menu-hamburguer.active::after {
+    color: rgb(245, 245, 245);
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  .menu-hamburguer.active::before {
+    color: rgb(245, 245, 245);
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
+  }
+  .navtext {
+    display: none;
+    /* background-color: #542f17;
+    z-index: 100; */
+  }
+  .navtext.active {
+    display: block;
+    background-color: #542f17;
+    z-index: 100;
+  }
+  .navtext li {
+    margin: 30px auto;
+  }
+  .navtext li:last-child {
+    padding-bottom: 100px;
+  }
+  .navtext li:first-child {
+    padding-top: 100px;
+  }
+  .sobre {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    margin: 40px auto 70px auto;
+  }
+}
+@media screen and (max-width: 420px) {
   h1 {
     font-size: 48px;
     line-height: 52px;
@@ -436,67 +527,7 @@ a:hover {
   .imagem {
     display: none;
   }
-  /* MENU LATERAL */
-  .menu-hamburguer {
-    display: block;
-    color: #542f17;
-    width: 36px;
-    height: 36px;
-    border-top: 4px solid;
-    margin: 20px 0px 8px 5%;
-    float: left;
-    position: absolute;
-    cursor: pointer;
-    -webkit-backface-visibility: hidden;
-    z-index: 2;
-    order: -1;
-    /* 
-    display: block;
-    padding: 16px; */
-  }
-  .menu-hamburguer::after, .menu-hamburguer::before {
-    content: '';
-    display: block;
-    height: 4px;
-    margin-top: 6px;
-    background: currentColor;
-    position: relative;
-    transition: transform .2s ease;
-  }
-  .menu-hamburguer.active {
-    border-top-color: transparent;
-    z-index: 200;
-    position: absolute;
-  }
-  .menu-hamburguer.active::after {
-    color: rgb(245, 245, 245);
-    margin-top: 0px;
-    top: 2px;
-    transform: rotate(45deg);
-  }
-  .menu-hamburguer.active::before {
-    color: rgb(245, 245, 245);
-    margin-top: 0px;
-    top: 6px;
-    transform: rotate(135deg);
-  }
-  .navtext {
-    display: none;
-    /* background-color: #542f17;
-    z-index: 100; */
-  }
-  .navtext.active {
-    display: block;
-    background-color: #542f17;
-    z-index: 100;
-  }
-  .navtext li {
-    margin: 30px auto;
-  }
-  .navtext li:last-child {
-    padding-bottom: 100px;
-  }
-  .navtext li:first-child {
-    padding-top: 100px;
+  .carousel-indicators {
+    top: 200px;
   }
 }
