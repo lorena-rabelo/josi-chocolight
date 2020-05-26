@@ -429,9 +429,10 @@ a:hover {
   .logo {
     margin: 40px auto 70px auto;
   }
+  footer>h2 {
+    margin-bottom: 20px;
+  }
 }
-
-
 
 @media screen and (max-width: 420px) {
   h1 {
@@ -522,6 +523,9 @@ a:hover {
   }
   .sociais img {
     margin: 40px 15px 0px 15px;
+  }
+  footer {
+    height: 360px;
   }
   footer>h2 {
     height: 80px;
