@@ -430,6 +430,9 @@ a:hover {
     margin: 40px auto 70px auto;
   }
 }
+
+
+
 @media screen and (max-width: 420px) {
   h1 {
     font-size: 48px;
@@ -498,7 +501,7 @@ a:hover {
     padding-top: 20px;
   }
   .img_produtos {
-    margin: 0px 140px;
+    margin: 0px auto;
   }
   .img_section h2 {
     font-size: 48px;
