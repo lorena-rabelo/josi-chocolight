@@ -5,7 +5,6 @@ $(document).ready(function () {
         $(this).toggleClass('active');
         $(".logo").toggleClass('active');
         $(".navtext").toggleClass('active');
-
     })
 
 })
