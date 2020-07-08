@@ -201,8 +201,6 @@ li {
   font-family: 'Dancing Script', cursive;
 }
 
-/* flex-column flex-md-row  */
-
 .img_produtos {
   max-width: 185px;
   background-color: #DED3CF;
@@ -212,6 +210,56 @@ li {
   object-fit: cover;
   margin: auto 50px;
   padding: auto;
+}
+
+.eventos {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 60px auto;
+}
+
+.eventos__imagens {
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.eventos__imagens img {
+  max-width: 205px;
+  height: 205px;
+  object-fit: cover;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.eventos__imagens img:nth-child(even) {
+  margin-left: 25px;
+}
+
+.eventos__imagens img:nth-child(odd) {
+  margin-right:25px;
+}
+
+.eventos__texto {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.eventos__texto h2 {
+  margin-bottom: 30px;
+}
+
+.eventos__texto p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #542F17;
 }
 
 /* Redes Sociais */
