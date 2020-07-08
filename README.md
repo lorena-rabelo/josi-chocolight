@@ -2,13 +2,12 @@
 
 ### Projeto 3 - Bootcamp Front-end [{reprograma}](https://reprograma.com.br/) 
 
-Site da loja feito em HTML, CSS e JQuery.
-
 ## Cliente: Josi Chocolight :chocolate_bar:
+Site para empresa de alimentos e eventos
 
 
 ### Tecnologias utilizadas no projeto
-   - Figma
+   - Figma [(link para protótipo)](https://www.figma.com/file/U8539QaVe9fPmf2X5YTww5/Untitled?node-id=0%3A1)
    - HTML  
    - CSS
    - Jquery
