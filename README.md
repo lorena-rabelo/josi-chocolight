@@ -9,8 +9,7 @@ Site da loja feito em HTML, CSS e JQuery.
 
 ### Tecnologias utilizadas no projeto
    - Figma
-   - HTML
-   - Excluir itens individualmente
+   - HTML  
    - CSS
    - Jquery
 
