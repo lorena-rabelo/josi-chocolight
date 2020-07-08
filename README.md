@@ -4,6 +4,7 @@
 
 ## Cliente: Josi Chocolight :chocolate_bar:
 Site para empresa de alimentos e eventos
+#### <https://www.josichocolight.com/>
 
 
 ### Tecnologias utilizadas no projeto
